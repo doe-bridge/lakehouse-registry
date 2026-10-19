@@ -583,7 +583,7 @@
 <p>To add or update an entry, edit <a href="https://github.com/ber-data/lakehouse-registry/blob/main/lakehouse-registry.yaml"><code>lakehouse-registry.yaml</code></a> in the repository root and open a pull request. Entries are validated against the <a href="../elements/">registry schema</a> in CI.</p>
 <h2 id="bridge-lakehouse">BRIDGE Lakehouse</h2>
 <p>Starburst-based BRIDGE data lakehouse serving as the primary hosting platform for data conforming to the registered BER schema sources. Platform is Starburst (Trino); recorded as 'other' because the PlatformType enum does not yet include starburst.</p>
-<p><em>Operator: Lawrence Berkeley National Laboratory · Platform: other · Entries: 28</em></p>
+<p><em>Operator: Lawrence Berkeley National Laboratory · Platform: other · Entries: 31</em></p>
 <table>
 <thead>
 <tr>
@@ -687,22 +687,43 @@
 <td>public</td>
 </tr>
 <tr>
-<td><a href="https://github.com/biodatamodels/gff-schema">JGI GFF</a></td>
-<td>Annotations for JGI-produced genomes.</td>
-<td>Valerie Skye</td>
-<td>experimental</td>
-<td>public</td>
-</tr>
-<tr>
-<td>JGI GOLD</td>
+<td><a href="https://code.jgi.doe.gov/dsi/advanced-analysis/data-modeling/semantic-search/-/blob/main/README.md?ref_type=heads">JGI GOLD</a></td>
 <td>JGI project, sample, and analysis metadata (GOLD).</td>
 <td>Valerie Skye</td>
 <td>experimental</td>
 <td>internal</td>
 </tr>
 <tr>
-<td>JGI Proposal DB</td>
-<td>JGI proposal database (via the data warehouse).</td>
+<td><a href="https://code.jgi.doe.gov/dsi/advanced-analysis/data-modeling/semantic-search/-/blob/main/README.md?ref_type=heads">JGI Study</a></td>
+<td>Study metadata from JGI GOLD. Experimental LinkML projection for the Semantic Search service.</td>
+<td>Valerie Skye</td>
+<td>experimental</td>
+<td>internal</td>
+</tr>
+<tr>
+<td><a href="https://code.jgi.doe.gov/dsi/advanced-analysis/data-modeling/semantic-search/-/blob/main/README.md?ref_type=heads">JGI Organism</a></td>
+<td>Organism metadata from JGI GOLD, including plant and fungal isolates. Experimental LinkML projection for the Semantic Search service.</td>
+<td>Valerie Skye</td>
+<td>experimental</td>
+<td>internal</td>
+</tr>
+<tr>
+<td><a href="https://code.jgi.doe.gov/dsi/advanced-analysis/data-modeling/semantic-search/-/blob/main/README.md?ref_type=heads">JGI Biosample</a></td>
+<td>Biosample metadata from JGI GOLD, including sample collection and ecosystem attributes. Experimental LinkML projection for the Semantic Search service.</td>
+<td>Valerie Skye</td>
+<td>experimental</td>
+<td>internal</td>
+</tr>
+<tr>
+<td><a href="https://code.jgi.doe.gov/dsi/advanced-analysis/data-modeling/semantic-search/-/blob/main/README.md?ref_type=heads">JGI Sequencing Project</a></td>
+<td>Sequencing project metadata from JGI GOLD. Experimental LinkML projection for the Semantic Search service.</td>
+<td>Valerie Skye</td>
+<td>experimental</td>
+<td>internal</td>
+</tr>
+<tr>
+<td><a href="https://code.jgi.doe.gov/dsi/advanced-analysis/data-modeling/semantic-search/-/blob/main/README.md?ref_type=heads">JGI Analysis Project</a></td>
+<td>Analysis project metadata from JGI GOLD. Experimental LinkML projection for the Semantic Search service.</td>
 <td>Valerie Skye</td>
 <td>experimental</td>
 <td>internal</td>

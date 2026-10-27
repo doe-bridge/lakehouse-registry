@@ -67,7 +67,7 @@ for guidelines.
 
 ### Development
 
-**Prerequisites:** Python 3.9+, [uv](https://docs.astral.sh/uv/),
+**Prerequisites:** Python 3.10+, [uv](https://docs.astral.sh/uv/),
 [just](https://github.com/casey/just)
 
 ```bash

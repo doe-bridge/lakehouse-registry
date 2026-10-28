@@ -76,5 +76,5 @@ linkml-validate -s src/ber_data_registry/schema/ber_data_registry.yaml your-file
 - [Examples](examples.md) -- Downloadable YAML examples with walkthroughs
 - [About](about.md) -- Project goals, background, design principles, and how to
   contribute
-- [GitHub Repository](https://github.com/sierra-moxon/ber-data-registry) -- Source
+- [GitHub Repository](https://github.com/doe-bridge/lakehouse-registry) -- Source
   code, issues, and CI/CD

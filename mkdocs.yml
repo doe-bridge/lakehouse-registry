@@ -1,5 +1,5 @@
 ---
-site_name: "ber-data-registry"
+site_name: "doe-bridge-lakehouse-registry"
 theme:
   name: material
   # palette:
@@ -39,8 +39,8 @@ nav:
 exclude_docs: |
   /templates-linkml/
 
-site_url: https://ber-data.github.io/lakehouse-registry
-repo_url: https://github.com/ber-data/lakehouse-registry
+site_url: https://doe-bridge.github.io/lakehouse-registry
+repo_url: https://github.com/doe-bridge/lakehouse-registry
 
 # Uncomment this block to enable use of Google Analytics.
 # Replace the property value with your own ID.

@@ -62,7 +62,7 @@ federal data cataloging standards (DCAT-US).
 
 ## Contributing
 
-Contributions are welcome. Please see [CONTRIBUTING.md](https://github.com/sierra-moxon/ber-data-registry/blob/main/CONTRIBUTING.md)
+Contributions are welcome. Please see [CONTRIBUTING.md](https://github.com/doe-bridge/lakehouse-registry/blob/main/CONTRIBUTING.md)
 for guidelines.
 
 ### Development
@@ -72,8 +72,8 @@ for guidelines.
 
 ```bash
 # Clone and set up
-git clone https://github.com/sierra-moxon/ber-data-registry.git
-cd ber-data-registry
+git clone https://github.com/doe-bridge/lakehouse-registry.git
+cd lakehouse-registry
 just install
 
 # Run tests
@@ -94,7 +94,7 @@ docs/                           # Generated documentation site
 
 ## License
 
-This project is licensed under the [MIT License](https://github.com/sierra-moxon/ber-data-registry/blob/main/LICENSE).
+This project is licensed under the [MIT License](https://github.com/doe-bridge/lakehouse-registry/blob/main/LICENSE).
 
 ## Acknowledgments
 
@@ -104,4 +104,4 @@ template.
 ## Contact
 
 For questions or issues, please open an issue on the
-[GitHub repository](https://github.com/sierra-moxon/ber-data-registry/issues).
+[GitHub repository](https://github.com/doe-bridge/lakehouse-registry/issues).
